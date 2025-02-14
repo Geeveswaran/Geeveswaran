@@ -1,0 +1,8 @@
+def add(a,b):
+    return a+b
+def sub(a,b):
+    return a-b
+def cal(functionname,a,b):
+    cal(functionname,a,b)
+print(cal(add,2,3))
+print(cal(sub,3,2))
